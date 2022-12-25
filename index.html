@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="build/img/favicon-32x32.png">
+    <meta name="description" content="Desafío de Frontend Mentor, Clipboard landing page">
     <title>Frontend Mentor | Clipboard landing page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
     <header class="header">
         <div class="container">
             <a class="header__brand" href="./">
-                <img class="header__brand-image" src="build/img/logo.svg" alt="logo Clipboard">
+                <img class="header__brand-image" src="build/img/logo.svg" width="125" height="125" alt="logo Clipboard">
             </a>
 
             <div class="header__content">
@@ -72,7 +73,7 @@
             <picture class="cloud__image-box">
                 <source srcset="build/img/image-devices.avif" type="image/avif">
                 <source srcset="build/img/image-devices.webp" type="image/webp">
-                <img class="cloud__image" loading="lazy" src="build/img/image-devices.png" alt="devices image">
+                <img class="cloud__image" loading="lazy" src="build/img/image-devices.png" width="905" height="575" alt="devices image">
             </picture>
         </section>
 
@@ -83,7 +84,7 @@
             <div class="workflow__grid container-xl">
                 <div class="icon">
                     <div class="icon__box">
-                        <img class="icon__image" src="build/img/icon-blacklist.svg" alt="icon blacklist">
+                        <img class="icon__image" src="build/img/icon-blacklist.svg" width="44" height="40" alt="icon blacklist">
                     </div>
                     <h3 class="icon__name">Create blacklists</h3> 
                     <p class="icon__text">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>   
@@ -91,7 +92,7 @@
 
                 <div class="icon">
                     <div class="icon__box">
-                        <img class="icon__image" src="build/img/icon-text.svg" alt="icon blacklist">
+                        <img class="icon__image" src="build/img/icon-text.svg" width="44" height="40" alt="icon blacklist">
                     </div>
                     <h3 class="icon__name">Plain text snippets</h3> 
                     <p class="icon__text">Remove unwanted formatting from copied text for a consistent look.</p>   
@@ -99,7 +100,7 @@
 
                 <div class="icon">
                     <div class="icon__box">
-                        <img class="icon__image" src="build/img/icon-preview.svg" alt="icon blacklist">
+                        <img class="icon__image" src="build/img/icon-preview.svg" width="44" height="40" alt="icon blacklist">
                     </div>
                     <h3 class="icon__name">Sneak preview</h3> 
                     <p class="icon__text">Quick preview of all snippets on your Clipboard for easy access.</p>   
@@ -111,19 +112,19 @@
     <section class="clients">
         <ul class="clients__grid container-xl">
             <li class="clients__box">
-                <img class="clients__logo" src="build/img/logo-google.png" alt="logo google">
+                <img class="clients__logo" src="build/img/logo-google.png" width="165" height="49" alt="logo google">
             </li>
             <li class="clients__box">
-                <img class="clients__logo" src="build/img/logo-ibm.png" alt="logo ibm">
+                <img class="clients__logo" src="build/img/logo-ibm.png" width="139" height="51" alt="logo ibm">
             </li>
             <li class="clients__box">
-                <img class="clients__logo" src="build/img/logo-microsoft.png" alt="logo microsoft">
+                <img class="clients__logo" src="build/img/logo-microsoft.png" width="161" height="35" alt="logo microsoft">
             </li>
             <li class="clients__box">
-                <img class="clients__logo" src="build/img/logo-hp.png" alt="logo hp">
+                <img class="clients__logo" src="build/img/logo-hp.png" width="135" height="56" alt="logo hp">
             </li>
             <li class="clients__box">
-                <img class="clients__logo" src="build/img/logo-vector-graphics.png" alt="logo vector graphics">  
+                <img class="clients__logo" src="build/img/logo-vector-graphics.png" width="125" height="30" alt="logo vector graphics">  
             </li>
         </ul>
     </section>
@@ -168,10 +169,12 @@
             </nav>
         </div>
     </footer>
-    <!-- <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
-        </p> -->
-    <script src="/build/js/images.js"></script>
+    
+    <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/mescobar89" target="_blank">Martín Escobar</a>.
+    </p>
+    
+    <script src="./build/js/images.js"></script>
 </body>
 </html>
